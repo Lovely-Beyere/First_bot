@@ -1,27 +1,5 @@
 from datetime import datetime as dt
 
-# class Dog:
-#     def __init__(self, name):
-#         self.name = name
-#
-# dog1 = Dog("Tina")
-#
-# print(dog1.name)
-#
-# class Soda:
-#     def __init__(self, name):
-#         self.name = name
-#
-#
-#     def __str__(self):
-#         if soda_flavour:
-#             return f"У вас газировка с {soda_flavour} вкусом"
-#         else:
-#             return  "У вас обычная газировка"
-# soda_flavour = input("С каким вкусом вы хотите газировку?")
-# soda = Soda(soda_flavour)
-# print(soda)
-
 mon_balance = 1000
 cor_passw = 7925
 locked_status = True
@@ -139,5 +117,6 @@ while logged_in:
     print("")
 
     atm.operations(cus_input=input("Какую операцию желаете провести?\n"))
+
 
 print("Спасибо что воспользовались нашими услугами")
